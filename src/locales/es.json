@@ -1,0 +1,71 @@
+{
+  "navbar": {
+    "services": "Servicios",
+    "about": "Nosotros",
+    "researchers": "Equipo",
+    "contact": "Contáctanos"
+  },
+  "hero": {
+    "title": "Transformamos ideas en evidencia sólida",
+    "subtitle": "Consultoría científica y meta-investigación de alto nivel para mejorar la toma de decisiones basada en evidencia.",
+    "cta_primary": "Descubre cómo sumamos valor",
+    "cta_secondary": "Conoce CECIMIB"
+  },
+  "about": {
+    "mission": {
+      "title": "Misión",
+      "text": "El Centro de Consultoría Científica y Meta-Investigación en Ciencias Biomédicas (CECIMIB), es un centro independiente de generación, uso y transferencia de conocimiento basado en la investigación y análisis crítico de la investigación biomédica. Nuestro fin principal es proveer de datos, tendencias, patrones, y diagnósticos sobre la calidad de los métodos, principios y prospectiva de la actividad científica."
+    },
+    "vision": {
+      "title": "Visión",
+      "text": "Con base en la originalidad, pertinencia, relevancia y calidad de nuestra metodología, apuntamos a convertirnos en un centro de investigación sostenible, acreditado y de referencia a nivel nacional e internacional, desarrollando líneas de investigación independientes que resuelvan necesidades científicas específicas."
+    }
+  },
+  "services": {
+    "header": "¿Cómo sumamos valor?",
+    "items": {
+      "systematization": {
+        "title": "Sistematización de Evidencia",
+        "description": "Sistematizamos la evidencia que necesitas para decisiones clínicas y políticas de salud."
+      },
+      "assessment": {
+        "title": "Evaluación de Tecnologías",
+        "description": "Evaluamos tecnologías sanitarias con rigor metodológico y visión costo-efectiva."
+      },
+      "strengthening": {
+        "title": "Fortalecimiento de Grupos",
+        "description": "Fortalecemos o creamos grupos de investigación, impulsando su sostenibilidad y productividad."
+      },
+      "design": {
+        "title": "Diseño de Estudios",
+        "description": "Diseñamos estudios que generan conocimiento sobre intervenciones y desenlaces en salud."
+      },
+      "positioning": {
+        "title": "Posicionamiento Científico",
+        "description": "Ayudamos a que se posicione tu producción científica ante el discurso internacional de la ciencia, con artículos de alto impacto."
+      }
+    }
+  },
+  "researchers": {
+    "title": "Nuestros Investigadores",
+    "ivan": {
+      "role": "CEO y Fundador",
+      "bio": "Médico - Diplomado en Epidemiología. Maestría en Gerontología. Candidato a Doctor en Metodología de la Investigación Biomédica y Salud Pública. CEO y Fundador del Centro de Consultoría Científica y Meta-Investigación en Ciencias Biomédicas (CECIMIB SAS)."
+    },
+    "david": {
+      "role": "Asistente de Investigación",
+      "bio": "Estudiante de medicina interesado en investigación médica, meta-investigación y análisis de datos."
+    },
+    "andy": {
+      "role": "Asistente de Investigación",
+      "bio": "Estudiante de biología enfocado en bibliometría y meta-investigación, estudiando la producción científica, coherencia de la investigación y patrones globales en ciencias de la salud y ambientales."
+    }
+  },
+  "footer": {
+    "brand_text": "Centro de Consultoría Científica y Meta-Investigación en Ciencias Biomédicas",
+    "links": "Enlaces",
+    "contact": "Contacto",
+    "contact_text": "Ayudamos a investigadores, hospitales e industrias.",
+    "rights": "Todos los derechos reservados."
+  }
+}

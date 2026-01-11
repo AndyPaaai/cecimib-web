@@ -1,7 +1,10 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 
 const Hero = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="hero">
       <div className="container hero-container">
@@ -11,13 +14,13 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h1>Transformamos ideas en evidencia sólida</h1>
+          <h1>{t('hero.title')}</h1>
           <p className="subtitle">
-            Consultoría científica y meta-investigación de alto nivel para mejorar la toma de decisiones basada en evidencia.
+            {t('hero.subtitle')}
           </p>
           <div className="hero-cta">
-            <a href="#services" className="btn btn-primary">Descubre cómo sumamos valor</a>
-            <a href="#about" className="btn btn-outline hero-secondary-btn">Conoce CECIMIB</a>
+            <a href="#services" className="btn btn-primary">{t('hero.cta_primary')}</a>
+            <a href="#about" className="btn btn-outline hero-secondary-btn">{t('hero.cta_secondary')}</a>
           </div>
         </motion.div>
       </div>

@@ -1,29 +1,32 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 const About = () => {
-    return (
-        <section id="about" className="section about">
-            <div className="container">
-                <div className="about-grid">
-                    <div className="about-content">
-                        <div className="card mission-card">
-                            <h3>Misión</h3>
-                            <p>
-                                El Centro de Consultoría Científica y Meta-Investigación en Ciencias Biomédicas (CECIMIB), es un centro independiente de generación, uso y transferencia de conocimiento basado en la investigación y análisis crítico de la investigación biomédica. Nuestro fin principal es proveer de datos, tendencias, patrones, y diagnósticos sobre la calidad de los métodos, principios y prospectiva de la actividad científica.
-                            </p>
-                        </div>
+  const { t } = useTranslation();
 
-                        <div className="card vision-card">
-                            <h3>Visión</h3>
-                            <p>
-                                Con base en la originalidad, pertinencia, relevancia y calidad de nuestra metodología, apuntamos a convertirnos en un centro de investigación sostenible, acreditado y de referencia a nivel nacional e internacional, desarrollando líneas de investigación independientes que resuelvan necesidades científicas específicas.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+  return (
+    <section id="about" className="section about">
+      <div className="container">
+        <div className="about-grid">
+          <div className="about-content">
+            <div className="card mission-card">
+              <h3>{t('about.mission.title')}</h3>
+              <p>
+                {t('about.mission.text')}
+              </p>
             </div>
 
-            <style>{`
+            <div className="card vision-card">
+              <h3>{t('about.vision.title')}</h3>
+              <p>
+                {t('about.vision.text')}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <style>{`
         .about {
           background-color: var(--color-bg-alt);
         }
@@ -71,8 +74,8 @@ const About = () => {
           }
         }
       `}</style>
-        </section>
-    );
+    </section>
+  );
 };
 
 export default About;

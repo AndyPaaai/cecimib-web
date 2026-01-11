@@ -1,51 +1,51 @@
 import React from 'react';
 import { Linkedin, BookOpen, FileText, Globe } from 'lucide-react';
-
-const researchers = [
-  {
-    name: "Ivan David Lozada-Martinez",
-    role: "CEO & Founder",
-    photo: `${import.meta.env.BASE_URL}researchers/ivan-lozada-martinez.jpeg`,
-    bio: "Physician - Diploma in Epidemiology. MSc in Gerontology. PhD (Candidate) in Biomedical Research Methodology and Public Health. CEO & Founder Center for Scientific Consulting & Meta-Research in Biomedical Sciences (CECIMIB SAS).",
-    links: {
-      linkedin: "https://www.linkedin.com/in/ivan-david-lozada-martinez/?originalSubdomain=co",
-      orcid: "https://orcid.org/0000-0002-1960-7334",
-      scholar: "https://scholar.google.es/citations?user=fA3e4-8AAAAJ&hl=es&oi=ao",
-      researchgate: "https://www.researchgate.net/profile/Ivan-David-Lozada-Martinez"
-    }
-  },
-  {
-    name: "David A. Hernandez-Paez",
-    role: "Research Assistant",
-    photo: `${import.meta.env.BASE_URL}researchers/david-hernandez-paez.jpeg`,
-    bio: "Medical student interested in medical research, meta-research, and data analysis.",
-    links: {
-      linkedin: "https://www.linkedin.com/in/david-a-hernandez-paez-463a24273/",
-      orcid: "https://orcid.org/0000-0002-6742-3185",
-      scholar: "https://scholar.google.es/citations?user=KviJPbAAAAAJ&hl=es",
-      researchgate: "https://www.researchgate.net/profile/David-Hernandez-Paez"
-    }
-  },
-  {
-    name: "Andy A. Acosta-Monterrosa",
-    role: "Research Assistant",
-    photo: `${import.meta.env.BASE_URL}researchers/andy-acosta-monterrosa.jpeg`,
-    bio: "Biology undergraduate focused on bibliometrics and meta-research, studying scientific production, research coherence, and global patterns in health and environmental sciences.",
-    links: {
-      linkedin: "https://www.linkedin.com/in/andy-a-acosta-monterrosa-08a7b2353/",
-      orcid: "https://orcid.org/0000-0002-6860-1043",
-      scholar: "https://scholar.google.es/citations?user=jccSioEAAAAJ&hl=es",
-      researchgate: "https://www.researchgate.net/profile/Andy-A-Acosta-Monterrosa"
-    }
-  }
-];
+import { useTranslation } from 'react-i18next';
 
 const Researchers = () => {
+  const { t } = useTranslation();
+
+  const researchers = [
+    {
+      id: 'ivan',
+      name: "Ivan David Lozada-Martinez",
+      photo: `${import.meta.env.BASE_URL}researchers/ivan-lozada-martinez.jpeg`,
+      links: {
+        linkedin: "https://www.linkedin.com/in/ivan-david-lozada-martinez/?originalSubdomain=co",
+        orcid: "https://orcid.org/0000-0002-1960-7334",
+        scholar: "https://scholar.google.es/citations?user=fA3e4-8AAAAJ&hl=es&oi=ao",
+        researchgate: "https://www.researchgate.net/profile/Ivan-David-Lozada-Martinez"
+      }
+    },
+    {
+      id: 'david',
+      name: "David A. Hernandez-Paez",
+      photo: `${import.meta.env.BASE_URL}researchers/david-hernandez-paez.jpeg`,
+      links: {
+        linkedin: "https://www.linkedin.com/in/david-a-hernandez-paez-463a24273/",
+        orcid: "https://orcid.org/0000-0002-6742-3185",
+        scholar: "https://scholar.google.es/citations?user=KviJPbAAAAAJ&hl=es",
+        researchgate: "https://www.researchgate.net/profile/David-Hernandez-Paez"
+      }
+    },
+    {
+      id: 'andy',
+      name: "Andy A. Acosta-Monterrosa",
+      photo: `${import.meta.env.BASE_URL}researchers/andy-acosta-monterrosa.jpeg`,
+      links: {
+        linkedin: "https://www.linkedin.com/in/andy-a-acosta-monterrosa-08a7b2353/",
+        orcid: "https://orcid.org/0000-0002-6860-1043",
+        scholar: "https://scholar.google.es/citations?user=jccSioEAAAAJ&hl=es",
+        researchgate: "https://www.researchgate.net/profile/Andy-A-Acosta-Monterrosa"
+      }
+    }
+  ];
+
   return (
     <section id="researchers" className="section researchers">
       <div className="container">
         <div className="section-header">
-          <h2>Nuestros Investigadores</h2>
+          <h2>{t('researchers.title')}</h2>
           <div className="underline"></div>
         </div>
 
@@ -57,8 +57,8 @@ const Researchers = () => {
               </div>
               <div className="researcher-info">
                 <h3>{researcher.name}</h3>
-                <span className="role">{researcher.role}</span>
-                <p>{researcher.bio}</p>
+                <span className="role">{t(`researchers.${researcher.id}.role`)}</span>
+                <p>{t(`researchers.${researcher.id}.bio`)}</p>
                 <div className="social-links">
                   {researcher.links.linkedin && (
                     <a href={researcher.links.linkedin} target="_blank" rel="noopener noreferrer" title="LinkedIn">

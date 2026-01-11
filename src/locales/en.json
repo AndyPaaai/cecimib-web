@@ -1,0 +1,71 @@
+{
+    "navbar": {
+        "services": "Services",
+        "about": "About Us",
+        "researchers": "Team",
+        "contact": "Contact Us"
+    },
+    "hero": {
+        "title": "We transform ideas into solid evidence",
+        "subtitle": "High-level scientific consulting and meta-research to improve evidence-based decision making.",
+        "cta_primary": "Discover how we add value",
+        "cta_secondary": "Meet CECIMIB"
+    },
+    "about": {
+        "mission": {
+            "title": "Mission",
+            "text": "The Center for Scientific Consulting and Meta-Research in Biomedical Sciences (CECIMIB) is an independent center for the generation, use, and transfer of knowledge based on research and critical analysis of biomedical research. Our main goal is to provide data, trends, patterns, and diagnostics on the quality of methods, principles, and foresight of scientific activity."
+        },
+        "vision": {
+            "title": "Vision",
+            "text": "Based on the originality, relevance, pertinence, and quality of our methodology, we aim to become a sustainable, accredited, and reference research center at both national and international levels, developing independent lines of research that solve specific scientific needs."
+        }
+    },
+    "services": {
+        "header": "How do we add value?",
+        "items": {
+            "systematization": {
+                "title": "Evidence Systematization",
+                "description": "We systematize the evidence you need for clinical decisions and health policies."
+            },
+            "assessment": {
+                "title": "Technology Assessment",
+                "description": "We evaluate health technologies with methodological rigor and cost-effective vision."
+            },
+            "strengthening": {
+                "title": "Group Strengthening",
+                "description": "We strengthen or create research groups, boosting their sustainability and productivity."
+            },
+            "design": {
+                "title": "Study Design",
+                "description": "We design studies that generate knowledge about health interventions and outcomes."
+            },
+            "positioning": {
+                "title": "Scientific Positioning",
+                "description": "We help position your scientific production in the international scientific discourse, with high-impact articles."
+            }
+        }
+    },
+    "researchers": {
+        "title": "Our Researchers",
+        "ivan": {
+            "role": "CEO & Founder",
+            "bio": "Physician - Diploma in Epidemiology. MSc in Gerontology. PhD (Candidate) in Biomedical Research Methodology and Public Health. CEO & Founder Center for Scientific Consulting & Meta-Research in Biomedical Sciences (CECIMIB SAS)."
+        },
+        "david": {
+            "role": "Research Assistant",
+            "bio": "Medical student interested in medical research, meta-research, and data analysis."
+        },
+        "andy": {
+            "role": "Research Assistant",
+            "bio": "Biology undergraduate focused on bibliometrics and meta-research, studying scientific production, research coherence, and global patterns in health and environmental sciences."
+        }
+    },
+    "footer": {
+        "brand_text": "Center for Scientific Consulting & Meta-Research in Biomedical Sciences",
+        "links": "Links",
+        "contact": "Contact",
+        "contact_text": "We help researchers, hospitals, and industries.",
+        "rights": "All rights reserved."
+    }
+}

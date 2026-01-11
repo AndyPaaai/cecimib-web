@@ -1,57 +1,55 @@
 import React from 'react';
 import { Database, Activity, Users, ClipboardList, Globe } from 'lucide-react';
-
-const services = [
-    {
-        icon: <Database size={40} />,
-        title: "Sistematización de Evidencia",
-        description: "Sistematizamos la evidencia que necesitas para decisiones clínicas y políticas de salud."
-    },
-    {
-        icon: <Activity size={40} />,
-        title: "Evaluación de Tecnologías",
-        description: "Evaluamos tecnologías sanitarias con rigor metodológico y visión costo-efectiva."
-    },
-    {
-        icon: <Users size={40} />,
-        title: "Fortalecimiento de Grupos",
-        description: "Fortalecemos o creamos grupos de investigación, impulsando su sostenibilidad y productividad."
-    },
-    {
-        icon: <ClipboardList size={40} />,
-        title: "Diseño de Estudios",
-        description: "Diseñamos estudios que generan conocimiento sobre intervenciones y desenlaces en salud."
-    },
-    {
-        icon: <Globe size={40} />,
-        title: "Posicionamiento Científico",
-        description: "Ayudamos a que se posicione tu producción científica ante el discurso internacional de la ciencia, con artículos de alto impacto."
-    }
-];
+import { useTranslation } from 'react-i18next';
 
 const Services = () => {
-    return (
-        <section id="services" className="section services">
-            <div className="container">
-                <div className="section-header">
-                    <h2>¿Cómo sumamos valor?</h2>
-                    <div className="underline"></div>
-                </div>
+  const { t } = useTranslation();
 
-                <div className="services-grid">
-                    {services.map((service, index) => (
-                        <div key={index} className="service-card">
-                            <div className="icon-wrapper">
-                                {service.icon}
-                            </div>
-                            <h3>{service.title}</h3>
-                            <p>{service.description}</p>
-                        </div>
-                    ))}
-                </div>
+  const services = [
+    {
+      id: 'systematization',
+      icon: <Database size={40} />
+    },
+    {
+      id: 'assessment',
+      icon: <Activity size={40} />
+    },
+    {
+      id: 'strengthening',
+      icon: <Users size={40} />
+    },
+    {
+      id: 'design',
+      icon: <ClipboardList size={40} />
+    },
+    {
+      id: 'positioning',
+      icon: <Globe size={40} />
+    }
+  ];
+
+  return (
+    <section id="services" className="section services">
+      <div className="container">
+        <div className="section-header">
+          <h2>{t('services.header')}</h2>
+          <div className="underline"></div>
+        </div>
+
+        <div className="services-grid">
+          {services.map((service, index) => (
+            <div key={index} className="service-card">
+              <div className="icon-wrapper">
+                {service.icon}
+              </div>
+              <h3>{t(`services.items.${service.id}.title`)}</h3>
+              <p>{t(`services.items.${service.id}.description`)}</p>
             </div>
+          ))}
+        </div>
+      </div>
 
-            <style>{`
+      <style>{`
         .services {
           background-color: var(--color-bg);
         }
@@ -119,8 +117,8 @@ const Services = () => {
           font-size: 0.95rem;
         }
       `}</style>
-        </section>
-    );
+    </section>
+  );
 };
 
 export default Services;
