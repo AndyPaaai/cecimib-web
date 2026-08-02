@@ -110,7 +110,7 @@ const NewsDetails = () => {
                   src={images[id]} 
                   alt={title} 
                   className="news-floating-image" 
-                  style={id === '1-6-2026' ? { width: '82%', maxWidth: '360px' } : {}}
+                  style={['1-6-2026', '2-4-2026', '2-6-2026'].includes(id) ? { width: '82%', maxWidth: '360px' } : {}}
                 />
               ) : (
                 <div className="news-floating-image placeholder-img"></div>

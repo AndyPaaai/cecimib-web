@@ -594,14 +594,11 @@
 }
 
 .news-image-caption {
-    font-size: 0.85rem;
-    color: #94a3b8;
-    margin: 0.85rem auto 0 auto;
+    font-size: 0.8rem;
+    color: #888;
+    margin-top: 0.75rem;
     line-height: 1.4;
-    padding: 0 0.5rem;
-    text-align: center;
-    max-width: 95%;
-    font-style: italic;
+    padding: 0 0.25rem;
 }
 
 .news-editorial-content p {
