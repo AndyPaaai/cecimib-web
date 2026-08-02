@@ -313,7 +313,6 @@
         "date": "2 de agosto de 2026",
         "title": "¿Existe una crisis de integridad en la neurocirugía mundial?",
         "author": "Ivan D. Lozada Martínez",
-        "subtitle": "Auditoría Científica en Neurocirugía",
         "keywords": [
           "Integridad Científica",
           "Neurocirugía",
@@ -330,15 +329,14 @@
         "p8": "Otro aspecto crítico revelado por el análisis fue que, en promedio, transcurrieron aproximadamente un año y nueve meses desde que los artículos fueron publicados hasta que finalmente se retiraron. Durante todo ese tiempo, estos estudios estuvieron disponibles, pudieron ser leídos por profesionales médicos y, potencialmente, utilizados para guiar investigaciones posteriores o decisiones clínicas.",
         "p9": "A pesar de todo lo anterior, no todo fue negativo. El estudio destacó el papel fundamental de herramientas como la base de datos Retraction Watch, que ha permitido documentar y organizar esta información, facilitando la identificación y el análisis del problema a nivel mundial.",
         "p10": "En conclusión, el panorama descrito por este estudio de CECIMIB y METRIC-BIO exige una reflexión profunda sobre los incentivos dentro de la comunidad académica y científica. Cuando el principal objetivo es \"publicar por publicar\", se crea un entorno propicio para conductas cuestionables. Garantizar que la neurocirugía continúe avanzando de manera segura y confiable requerirá no solo fortalecer los procesos de revisión editorial, sino también promover una cultura de integridad, transparencia y rigor científico desde las instituciones que generan la evidencia.",
-        "caption": "Estudio de auditoría científica publicado en World Neurosurgery para el área de la neurocirugía.",
-        "reference": "Visconti-Lopez FJ, Martinez-Ceron LF, Perez-Ortiz CE, Lozada-Martinez ID. Trends and Characterization of Retracted Literature in Neurosurgery: A 24-Year Descriptive Analysis Using the Retraction Watch Database. World Neurosurg. 2026;198:402-409. ",
-        "doi": "doi: 10.1016/j.wneu.2024.11.050"
+        "caption": "Estudio de auditoría científica publicado en Revista da Associação Médica Brasileira para el área de la neurocirugía.",
+        "reference": "Lozada-Martinez ID, Arias LMD, López JEM. Thousands of articles on neurosurgery, yet few self-assessments of neurosurgical evidence: the need to integrate meta-research for a more reliable clinical practice. Rev Assoc Med Bras (1992). 2026 May 11;72(2):e20251867.",
+        "doi": "10.1590/1806-9282.20251867"
       },
       "2-5-2026": {
         "date": "2 de agosto de 2026",
         "title": "¿Publicar más ciencia sobre seguridad alimentaria mejora los indicadores de alimentación de la población?",
         "author": "Ivan D. Lozada Martínez",
-        "subtitle": "Seguridad alimentaria e indicadores alimentarios",
         "keywords": [
           "Seguridad Alimentaria",
           "Nutrición",
@@ -357,13 +355,12 @@
         "p10": "El principal mensaje de este análisis quizás sea que combatir el hambre requiere mucho más que generar nuevas publicaciones científicas. También exige fortalecer los sistemas que permiten que ese conocimiento llegue a las personas. La investigación sigue siendo indispensable, pero su verdadero valor no depende únicamente de cuántos artículos se publiquen, sino de la capacidad de cada sociedad para convertir la evidencia en decisiones que mejoren la alimentación, la nutrición y la calidad de vida de su población.",
         "caption": "Estudio de coherencia científica publicado en Global Food Security para indicadores alimentarios.",
         "reference": "Hernández-Paez DA, Vergara-Rios JC, Montoya-Quintero KF, Lozada-Martinez ID. Does food security research really improve people's lives? A framework to estimate its potential impact from 2000 to 2025. Global Food Security. 2026; 49:100925. ",
-        "doi": "doi: 10.1016/j.gfs.2026.100925"
+        "doi": "10.1016/j.gfs.2026.100925"
       },
       "2-6-2026": {
         "date": "2 de agosto de 2026",
         "title": "¿Mayor actividad científica contribuye a la generación de más alimentos? La evidencia mundial dice que no siempre",
         "author": "Ivan D. Lozada Martínez",
-        "subtitle": "Seguridad alimentaria y capacidad absortiva",
         "keywords": [
           "Producción Agrícola",
           "Seguridad Alimentaria",
@@ -382,7 +379,7 @@
         "p10": "En última instancia, el principal aprendizaje es que el conocimiento científico no produce alimentos por sí solo. Lo que realmente determina su impacto es la capacidad de cada país para convertir ese conocimiento en políticas, innovación y acciones concretas en el campo. Esa es, probablemente, la diferencia entre publicar más investigaciones y lograr que esas investigaciones transformen realmente la producción agrícola.",
         "caption": "Estudio de coherencia científica publicado en Agriculture para indicadores de producción de cultivos.",
         "reference": "Acosta-Monterrosa AA, Florián-Pérez MC, Montoya-Vega ME, Lozada-Martinez ID. Structural Capacity, Food Security-Related Publications, and Crop Production: A Multilevel Global Analysis Across Income Settings. Agriculture. 2026; 16(9):995. ",
-        "doi": "doi: 10.3390/agriculture16090995"
+        "doi": "10.3390/agriculture16090995"
       }
     }
   },
