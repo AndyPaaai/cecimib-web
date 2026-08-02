@@ -5,12 +5,18 @@ import { ArrowLeft } from 'lucide-react';
 import fabriccioImg from '../assets/fabriccio-blog.jpeg';
 import johanaImg from '../assets/johana-blog.jpeg';
 import andyImg from '../assets/Andy-grado.jpeg';
+import columna1Img from '../assets/columna1.png';
+import columna2Img from '../assets/columna2.png';
+import columna3Img from '../assets/columna3.png';
 import facebookIcon from '../assets/Facebook_icon.svg';
 import linkedinIcon from '../assets/linkedin-icon.svg';
 import whatsappIcon from '../assets/whatsapp-icon.svg';
 import { publicationsData } from '../data/publications';
 
 const images = {
+  '1-6-2026': columna3Img,
+  '1-5-2026': columna2Img,
+  '1-4-2026': columna1Img,
   '1-3-2026': andyImg,
   '1-1-2026': fabriccioImg,
   '1-2-2026': johanaImg
@@ -27,7 +33,7 @@ const NewsDetails = () => {
   const navigate = useNavigate();
   const { t, i18n } = useTranslation();
 
-  const allNews = ['1-3-2026', '1-2-2026', '1-1-2026'];
+  const allNews = ['1-6-2026', '1-5-2026', '1-4-2026', '1-3-2026', '1-2-2026', '1-1-2026'];
   const recentNews = allNews.filter(b => b !== id).slice(0, 3);
   
   // Flatten all articles, then sort them by year descending to get the absolute latest
@@ -62,9 +68,10 @@ const NewsDetails = () => {
   const doi = t(`${newsKey}.doi`);
   const volume = t(`${newsKey}.volume`);
   const number = t(`${newsKey}.number`);
+  const reference = t(`${newsKey}.reference`);
   const keywords = t(`${newsKey}.keywords`, { returnObjects: true });
   
-  const paragraphs = ['p1', 'p2', 'p3', 'p4', 'p5', 'p6', 'p7', 'p8', 'p9', 'p10'];
+  const paragraphs = ['p1', 'p2', 'p3', 'p4', 'p5', 'p6', 'p7', 'p8', 'p9', 'p10', 'p11', 'p12', 'p13', 'p14', 'p15'];
   const currentUrl = window.location.href;
 
   const shareText = encodeURIComponent(title);
@@ -108,7 +115,12 @@ const NewsDetails = () => {
           <div className="news-header-image-col">
             <div className="news-floating-image-wrapper">
               {images[id] ? (
-                <img src={images[id]} alt={title} className="news-floating-image" />
+                <img 
+                  src={images[id]} 
+                  alt={title} 
+                  className="news-floating-image" 
+                  style={id === '1-6-2026' ? { width: '82%', maxWidth: '360px' } : {}}
+                />
               ) : (
                 <div className="news-floating-image placeholder-img"></div>
               )}
@@ -155,15 +167,20 @@ const NewsDetails = () => {
 
           {/* Tracking Footer */}
           <div className="news-tracking-info">
-            {doi !== `${newsKey}.doi` && (
-              <div className="news-tracking-item">
-                <strong>doi:</strong> {doi}
-              </div>
-            )}
+
             
             {volume !== `${newsKey}.volume` && number !== `${newsKey}.number` && (
               <div className="news-tracking-item">
                 <strong>Referencia:</strong> {author !== `${newsKey}.author` ? author : 'CECIMIB'}. {title}. Noticia CECIMIB. {new Date().getFullYear()}; {volume}({number}). {doi !== `${newsKey}.doi` ? `doi: ${doi}` : ''}
+              </div>
+            )}
+            
+            {reference !== `${newsKey}.reference` && (
+              <div className="news-tracking-item">
+                <strong>{i18n.language === 'es' ? 'Referencia del Artículo:' : 'Article Reference:'}</strong> {reference}
+                {doi !== `${newsKey}.doi` && (
+                  <span> doi: <a href={`https://doi.org/${doi}`} target="_blank" rel="noopener noreferrer" style={{color: 'var(--color-primary)'}}>{doi}</a></span>
+                )}
               </div>
             )}
 

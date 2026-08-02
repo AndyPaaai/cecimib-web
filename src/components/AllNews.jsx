@@ -118,7 +118,7 @@ const AllNews = () => {
                                     </div>
                                     
                                     <div className="editorial-thumbnail">
-                                        <img src={newsItem.image} alt={t(`news.items.${newsItem.id}.title`)} />
+                                        {newsItem.image ? <img src={newsItem.image} alt={t(`news.items.${newsItem.id}.title`)} /> : <div className="placeholder-img" style={{width: '100%', height: '100%'}}></div>}
                                     </div>
                                 </div>
                             </React.Fragment>

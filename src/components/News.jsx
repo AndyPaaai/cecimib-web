@@ -46,7 +46,7 @@ const News = () => {
                             </div>
                             
                             <div className="editorial-thumbnail">
-                                <img src={news.image} alt={t(`news.items.${news.id}.title`)} />
+                                {news.image ? <img src={news.image} alt={t(`news.items.${news.id}.title`)} /> : <div className="placeholder-img" style={{width: '100%', height: '100%'}}></div>}
                             </div>
                         </div>
                     ))}

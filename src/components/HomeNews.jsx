@@ -33,7 +33,7 @@ const HomeNews = () => {
             onClick={() => navigate(`/news/${newsItems[0].id}`)}
           >
             <div className="editorial-img-container">
-              <img src={newsItems[0].image} alt={t(`news.items.${newsItems[0].id}.title`)} />
+              {newsItems[0].image ? <img src={newsItems[0].image} alt={t(`news.items.${newsItems[0].id}.title`)} /> : <div className="placeholder-img" style={{width: '100%', height: '100%', background: '#ccc'}}></div>}
             </div>
             <span className="news-category">{categoryLabel}</span>
             <h3>{t(`news.items.${newsItems[0].id}.title`)}</h3>
@@ -50,7 +50,7 @@ const HomeNews = () => {
                 onClick={() => navigate(`/news/${news.id}`)}
               >
                 <div className="editorial-img-container">
-                  <img src={news.image} alt={t(`news.items.${news.id}.title`)} />
+                  {news.image ? <img src={news.image} alt={t(`news.items.${news.id}.title`)} /> : <div className="placeholder-img" style={{width: '100%', height: '100%', background: '#ccc'}}></div>}
                 </div>
                 <div className="secondary-news-content">
                   <span className="news-category">{categoryLabel}</span>
