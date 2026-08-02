@@ -380,6 +380,30 @@
         "caption": "Estudio de coherencia científica publicado en Agriculture para indicadores de producción de cultivos.",
         "reference": "Acosta-Monterrosa AA, Florián-Pérez MC, Montoya-Vega ME, Lozada-Martinez ID. Structural Capacity, Food Security-Related Publications, and Crop Production: A Multilevel Global Analysis Across Income Settings. Agriculture. 2026; 16(9):995. ",
         "doi": "10.3390/agriculture16090995"
+      },
+      "2-7-2026": {
+        "date": "2 de agosto de 2026",
+        "title": "¿Está la ciencia climática donde más se necesita? Coherencia científica para avanzar hacia la justicia climática",
+        "author": "Andy A. Acosta-Monterrosa",
+        "keywords": [
+          "Cambio Climático",
+          "Justicia Climática",
+          "Coherencia Científica",
+          "Vulnerabilidad"
+        ],
+        "p1": "El cambio climático es uno de los desafíos ambientales más urgentes de nuestro tiempo. Sus efectos se manifiestan en el aumento del nivel del mar, la pérdida de biodiversidad y la mayor frecuencia e intensidad de los fenómenos meteorológicos extremos, entre otras consecuencias ambientales, sociales y económicas.",
+        "p2": "Sin embargo, existe una profunda paradoja: quienes más han contribuido históricamente al cambio climático no son necesariamente quienes sufren sus efectos con mayor intensidad. Mientras los países de ingresos altos han tenido una participación considerable en las emisiones acumuladas de gases de efecto invernadero, muchas de las poblaciones más afectadas se encuentran en países de ingresos bajos y medios, donde existen menos recursos para responder, adaptarse y recuperarse.",
+        "p3": "En este contexto, la ciencia ha desempeñado un papel fundamental. A través de artículos científicos, libros e informes, la investigación ha permitido comprender las causas y consecuencias del cambio climático, así como desarrollar estrategias de mitigación y adaptación. Por ello, el conocimiento científico constituye un pilar esencial para la toma de decisiones en los ámbitos local, regional y mundial.",
+        "p4": "No obstante, el rápido crecimiento de la investigación climática no se ha distribuido de manera equitativa. Hemos encontrado que más del 70 % de la producción científica analizada provenía de países de ingresos altos y medios-altos, lo que evidencia una importante concentración geográfica del conocimiento.",
+        "p5": "Este resultado plantea preguntas fundamentales: ¿el aumento de las publicaciones se ha traducido en mejoras tangibles para las poblaciones y los ecosistemas más afectados? ¿La investigación se concentra en los territorios donde la vulnerabilidad climática es mayor? ¿Los temas estudiados responden a los daños reales, las prioridades locales y las necesidades de adaptación?",
+        "p6": "Para abordar estas preguntas, desde el Centro de Consultoría Científica y Meta-Investigación en Ciencias Biomédicas —CECIMIB S. A. S.— y su Centro de Meta-Ciencia y Cienciometría en Ciencias Biomédicas —METRIC-BIO— proponemos aplicar el concepto de coherencia científica a la investigación sobre cambio climático.",
+        "p7": "La coherencia científica puede entenderse como el grado en que el volumen y la distribución temática, geográfica y temporal de la investigación climática se corresponden con los patrones de riesgo, vulnerabilidad y exposición de las poblaciones y los ecosistemas. Este enfoque permite identificar si la agenda científica mundial responde a los territorios más afectados o si, por el contrario, se concentra en contextos menos vulnerables, mientras otras regiones permanecen infrarrepresentadas.",
+        "p8": "Para definir el alcance de este concepto, proponemos un marco compuesto por cuatro pilares: Coherencia geográfica (evalúa si la investigación se produce en las regiones de mayor riesgo), Coherencia temática (examina si los temas priorizados corresponden a las necesidades reales), Coherencia temporal (analiza si la ciencia responde oportunamente a crisis) y Coherencia traslacional (considera si el conocimiento se convierte en políticas públicas).",
+        "p9": "Por tanto, evaluar la investigación climática únicamente a partir de su productividad académica puede ofrecer una visión incompleta de su verdadero aporte. También es necesario considerar su pertinencia social, territorial y política, así como su capacidad para responder a las desigualdades que caracterizan tanto los impactos del cambio climático como la producción del conocimiento.",
+        "p10": "Avanzar hacia una ciencia climática coherente requiere fortalecer la participación de investigadores de las regiones más vulnerables. La coherencia científica puede contribuir a cerrar la distancia entre la producción académica y las necesidades reales de los territorios, acelerando tanto el progreso científico como la justicia climática.",
+        "caption": "Estudio de perspectiva y cienciometría publicado en Frontiers in Environmental Science sobre cambio climático.",
+        "reference": "Acosta-Monterrosa AA, Montoya-Quintero KF, Visconti-López FJ and Lozada-Martínez ID (2026) Scientific coherence in climate change research: a meta-research perspective to accelerate scientific progress and climate justice. Front. Environ. Sci. 14:1766738. ",
+        "doi": "10.3389/fenvs.2026.1766738"
       }
     }
   },

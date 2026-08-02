@@ -7,11 +7,16 @@ import columna3Img from '../assets/columna3.png';
 import columna4Img from '../assets/columna4.png';
 import columna5Img from '../assets/columna5.png';
 import columna6Img from '../assets/columna6.png';
+import columna7Img from '../assets/columna7.png';
 
 // Single source of truth for news articles (images and order).
 // The text content (title, excerpt, date, etc) is driven by the translation files (es.json / en.json) 
 // using the 'id' as the key.
 export const newsData = [
+    {
+        id: '2-7-2026',
+        image: columna7Img,
+    },
     {
         id: '2-6-2026',
         image: columna6Img,
