@@ -2,25 +2,16 @@ import React, { useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { ArrowLeft } from 'lucide-react';
-import fabriccioImg from '../assets/fabriccio-blog.jpeg';
-import johanaImg from '../assets/johana-blog.jpeg';
-import andyImg from '../assets/Andy-grado.jpeg';
-import columna1Img from '../assets/columna1.png';
-import columna2Img from '../assets/columna2.png';
-import columna3Img from '../assets/columna3.png';
+import { publicationsData } from '../data/publications';
+import { newsData } from '../data/newsData';
 import facebookIcon from '../assets/Facebook_icon.svg';
 import linkedinIcon from '../assets/linkedin-icon.svg';
 import whatsappIcon from '../assets/whatsapp-icon.svg';
-import { publicationsData } from '../data/publications';
 
-const images = {
-  '1-6-2026': columna3Img,
-  '1-5-2026': columna2Img,
-  '1-4-2026': columna1Img,
-  '1-3-2026': andyImg,
-  '1-1-2026': fabriccioImg,
-  '1-2-2026': johanaImg
-};
+const images = newsData.reduce((acc, item) => {
+  acc[item.id] = item.image;
+  return acc;
+}, {});
 
 const XIcon = () => (
   <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
@@ -33,7 +24,7 @@ const NewsDetails = () => {
   const navigate = useNavigate();
   const { t, i18n } = useTranslation();
 
-  const allNews = ['1-6-2026', '1-5-2026', '1-4-2026', '1-3-2026', '1-2-2026', '1-1-2026'];
+  const allNews = newsData.map(item => item.id);
   const recentNews = allNews.filter(b => b !== id).slice(0, 3);
   
   // Flatten all articles, then sort them by year descending to get the absolute latest
