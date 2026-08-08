@@ -1,7 +1,7 @@
 {
   "ivan": {
     "counts": {
-      "journal-article": 210,
+      "journal-article": 211,
       "conference-poster": 0,
       "conference-paper": 0,
       "conference-presentation": 0,
@@ -9,6 +9,14 @@
       "book-chapter": 8
     },
     "works": [
+      {
+        "title": "Carta a los autores de MEDICINA",
+        "date": "2026/08",
+        "journal": "Medicina",
+        "type": "journal-article",
+        "url": "https://doi.org/10.56050/revmedcol-2026-118",
+        "putCode": 223051195
+      },
       {
         "title": "Multidimensional factors associated with depressive symptoms in Colombian centenarians",
         "date": "2026/07",
@@ -1757,7 +1765,7 @@
   },
   "david": {
     "counts": {
-      "journal-article": 20,
+      "journal-article": 23,
       "conference-poster": 33,
       "conference-paper": 0,
       "conference-presentation": 15,
@@ -1765,6 +1773,30 @@
       "book-chapter": 1
     },
     "works": [
+      {
+        "title": "Carta a los autores de MEDICINA",
+        "date": "2026/08",
+        "journal": "Medicina",
+        "type": "journal-article",
+        "url": "https://doi.org/10.56050/revmedcol-2026-118",
+        "putCode": 223055031
+      },
+      {
+        "title": "SITUACIÓN ACTUAL DE LA SALUD EN COLOMBIA: DEL ANÁLISIS A LAS SOLUCIONES URGENTES Y DE LARGO PLAZO Memorias y Recomendaciones desde la Academia Nacional de Medicina (Noviembre 27 de 2025)",
+        "date": "2026/08",
+        "journal": "Medicina",
+        "type": "journal-article",
+        "url": "https://doi.org/10.56050/revmedcol-2026-119",
+        "putCode": 223064226
+      },
+      {
+        "title": "VISIÓN DE PROSPECTIVA DEL SISTEMA DE SALUD DE COLOMBIA",
+        "date": "2026/08",
+        "journal": "Medicina",
+        "type": "journal-article",
+        "url": "https://doi.org/10.56050/revmedcol-2026-120",
+        "putCode": 223064225
+      },
       {
         "title": "Estimating scientific coherence using population-level indicators and research production data: a longitudinal analytical proof-of-concept study",
         "date": "2026/06",
