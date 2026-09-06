@@ -1,7 +1,7 @@
 {
   "ivan": {
     "counts": {
-      "journal-article": 211,
+      "journal-article": 212,
       "conference-poster": 0,
       "conference-paper": 0,
       "conference-presentation": 0,
@@ -9,6 +9,14 @@
       "book-chapter": 8
     },
     "works": [
+      {
+        "title": "Traumatic brain injury outcomes across human development index strata in 29 countries",
+        "date": "2026/08",
+        "journal": "Nature Medicine",
+        "type": "journal-article",
+        "url": "http://dx.doi.org/10.1038/s41591-026-04600-6",
+        "putCode": 225885211
+      },
       {
         "title": "Carta a los autores de MEDICINA",
         "date": "2026/08",
