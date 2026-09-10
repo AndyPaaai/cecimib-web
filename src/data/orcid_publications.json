@@ -1773,7 +1773,7 @@
   },
   "david": {
     "counts": {
-      "journal-article": 23,
+      "journal-article": 24,
       "conference-poster": 33,
       "conference-paper": 0,
       "conference-presentation": 15,
@@ -1781,6 +1781,14 @@
       "book-chapter": 1
     },
     "works": [
+      {
+        "title": "Advanced photoacoustic imaging of the glymphatic system: The challenge of clinical translation",
+        "date": "2026/09",
+        "journal": "Acta Neurológica Colombiana",
+        "type": "journal-article",
+        "url": "https://doi.org/10.22379/anc.2189",
+        "putCode": 226256741
+      },
       {
         "title": "Carta a los autores de MEDICINA",
         "date": "2026/08",
